@@ -36,6 +36,6 @@ svg {
   transition: all .5s ease;
 }
 
-.is-pressed {
-  
+.is-pressed path {
+  stroke-dasharray: 480, 480;
 }
