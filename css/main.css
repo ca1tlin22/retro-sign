@@ -31,6 +31,14 @@ svg {
   cursor: pointer;
 }
 
+.btn:hover path:nth-child(2) {
+  fill: #f60;
+}
+
+.btn:active {
+  cursor: none;
+}
+
 .lines path {
   stroke-dasharray: 0, 480;
   transition: all .5s ease;
@@ -52,32 +60,36 @@ svg {
 
 }
 
-.btn:active path:nth-child(1) {
+.engage is-engage {
+  transition: all .5s ease;
+}
+
+.is-engage path:nth-child(1) {
   fill: #f60;
   transition-delay: .5s;
 }
 
-.btn:active path:nth-child(6) {
+.is-engage path:nth-child(6) {
   fill: #f60;
   transition-delay: .5s;
 }
 
-.btn:active path:nth-child(2) {
+.is-engage path:nth-child(2) {
   fill: #f60;
   transition-delay: .75s;
 }
 
-.btn:active path:nth-child(5) {
+.is-engage path:nth-child(5) {
   fill: #f60;
   transition-delay: .75s;
 }
 
-.btn:active path:nth-child(3) {
+.is-engage path:nth-child(3) {
   fill: #f60;
   transition-delay: 1s;
 }
 
-.btn:active path:nth-child(4) {
+.is-engage path:nth-child(4) {
   fill: #f60;
   transition-delay: 1s;
 }
